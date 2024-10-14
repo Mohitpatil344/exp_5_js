@@ -1,6 +1,6 @@
 // square.js
 
-function* squareIterator(arr) {
+function squareIterator(arr) {
     for (const num of arr) {
       yield num * num;
     }
